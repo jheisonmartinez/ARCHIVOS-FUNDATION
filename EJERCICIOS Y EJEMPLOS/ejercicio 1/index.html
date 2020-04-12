@@ -73,19 +73,31 @@
   <div class="large-3 columns"><!--inicio columna izaquierda  -->
         <div class="callout">
             <h4>Busqueda avanzada</h4>
-
-            <!-- inicio de formulario de busqueda -->
+  <!-- inicio de formulario de busqueda -->
               <form class="" action="index.html" method="post" >
-                  <div class="row">
+<!-- primer input por nombre -->
                     <label>Por nombre:
                       <input type="text" placeholder="Ingrese nombre" />
                     </label>
-                  </div>
-                  <div class="row">
+<!-- segundo imput por referencia -->
+
                     <label>Por referencia:
-                      <input type="text" placeholder="Ingrese referencia" />
+                      <input type="text" placeholder="Ingrese referencia"  />
                     </label>
-                  </div>
+                    <p class="help-text" id="ayudaTexto"> Número único del producto </p> <!-- colocamos el texto de ayuda  mediante la etiqueta p -->
+
+<!-- menu desplegable -->
+                  <label>Por categoria
+                    <select >
+                      <option value="1">Hogar</option>
+                      <option value="2">Salud</option>
+                      <option value="3">Deporte</option>
+                      <option value="4">Tegnologia</option>
+                      <option value="4">Accesorios</option>
+                    </select>
+                  </label>
+
+
               </form>
 
         </div>
