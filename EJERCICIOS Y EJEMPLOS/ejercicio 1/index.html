@@ -96,7 +96,18 @@
                       <option value="4">Accesorios</option>
                     </select>
                   </label>
-
+<!-- agregamos check Checkbox -->
+                <fieldset class="fieldset">
+                  <legend>Tipo de producto:</legend>
+                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Nuevo </label>
+                  <input id="checkbox2" type="checkbox"><label for="checkbox2">Usado</label>
+                </fieldset>
+<!-- incluimos los radio botones -->
+                <fieldset class="fieldset">
+                  <legend>Tipo de precio:</legend>
+                  <input type="radio" name="precio" value="Rojo" id="pleno" required><label for="pleno">pleno</label>
+                  <input type="radio" name="precio" value="Azul" id="En oferta"><label for="En oferta">En oferta</label>
+                </fieldset>
 
               </form>
 
