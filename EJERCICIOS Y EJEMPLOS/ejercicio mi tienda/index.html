@@ -1,212 +1,229 @@
-<!doctype html>
-<html class="no-js" lang="en" dir="ltr">
+<!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>mi tienda.com</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
-     <link rel="icon" href="img/tienda.jpg" / sizes="24x24">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
   </head>
   <body>
-  <header>
-    <div  class="row "><!--encabezado-->
-      <div class="large-3 small-4  columns encabezado ">
-        <h1>e-Store</h1>
-        </div>  <!--columna izquierda-->
-      <div class="large-5 small-8 large-offset-4 columns encabezado "><!-- inicio columna izquierda-->
-          <div class="">
-            <div class="hide-for-small-only ">
-              <ul class="menu">
-              <li><a href="#">Inicio de sesión</a></li>
-              <li><a href="#">Registro</a></li>
-              <li><a href="#">Ayuda</a></li>
-              <li><a href="#">Mapa del sitio</a></li>
-            </ul>
+
+     <div  class="row "><!--encabezado-->
+       <div class="samall-12 columns samall-order-1 ">
+         <div class="row align center">
+                   <div class="medium-3 column text-center">
+                        <h1>e-Store</h1>
+                   </div>
+                   <div class="medium-4 columns medium-offset-5 "><!-- inicio columna izquierda-->
+                         <div class="column row">
+                               <div class=" menu  align-right hide-for-small-only ">
+                                     <li><a href="#">Inicio de sesión</a></li>
+                                     <li><a href="#">Registro</a></li>
+                                     <li><a href="#">Ayuda</a></li>
+                                     <li><a href="#">Mapa del sitio</a></li>
+                               </div>
+                         </div>
+                         <div class="row">
+                               <div class="medium-9 columns medium-offset-3 hide-for-small-only show-for-landscape">
+                                      <ul class="menu aling-right">
+                                           <li><a href="https://wwww.facebook.com "target="_blank"> <i class=" step fi-social-facebook size-36" ></i></a></li>
+                                           <li><a href="https://www.instagram.com/accounts/login/?hl=es-la"target="_blank"> <i class="step fi-social-instagram size-36"></i></a></li>
+                                           <li><a href="https://twitter.com/login?lang=es"target="_blank"><i class="step fi-social-twitter  size-36"></i></a></li>
+                                           <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"target="_blank"><i class="step fi-social-google-plus size-36"></i></a></li>
+                                           <li><a href="https://co.linkedin.com"target="_blank"> <i class="step fi-social-linkedin size-36"></i></a></li>
+                                     </ul>
+                               </div>
+                          </div>
+                    </div><!-- cierre columna izquierda-->
+         </div> <!--cierre fila inicial -->
+     </div>
+     <!--columna izquierda-->
+
+       <div class="small-12 columns small-order-4 medium-order-2">
+         <div class="column row">
+                 <div class="  button-group expanded  stacked-for-small  ">
+                       <a class="button">Hogar</a>
+                        <a class="button">Salud</a>
+                         <a class="button">Deporte</a>
+                           <a class="button">Tecnologia</a>
+                            <a class="button">Accesorios</a>
+                             <a class="button hollow alert">carrito <i class="fi-shopping-cart size-14"> </i></a>
+                </div>
+           </div>
+         </div>
+
+         <div class="small-12 columns small-order-2">
+            <div class="column row">
+                           <ul class="breadcrumbs" aria-hidden="true">
+                               <li><a href="#">Hogar</a></li>
+                               <li><a href="#">salud</a></li>
+                               <li><a href="#">deporte</a></li>
+                               <li><a href="#">Tecnologia</a></li>
+                               <li><a href="#">accsesorios</a></li>
+                           </ul>
              </div>
-            <div class="">
-              <ul class="menu icons align-right hide-for-small-only show-for-landscape" >
-              <li><a href="https://wwww.facebook.com "target="_blank"><span></span> <i class="fi-social-facebook size-36" ></i></a></li>
-              <li><a href="https://www.instagram.com/accounts/login/?hl=es-la"target="_blank"><span></span> <i class="fi-social-instagram size-36"></i></a></li>
-              <li><a href="https://twitter.com/login?lang=es"target="_blank"><span></span> <i class="fi-social-twitter  size-36"></i></a></li>
-              <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"target="_blank"><span></span> <i class="fi-social-google-plus size-36"></i></a></li>
-              <li><a href="https://co.linkedin.com"target="_blank"><span></span> <i class="fi-social-linkedin size-36"></i></a></li>
-            </ul>
+         </div>
+
+
+
+
+
+
+ <div class="small-12 columns small-order-3">
+   <div class="row large-uncollapse">
+     <div class="large-3 columns medium-4 columns show-for-medium"><!--inicio columna izaquierda  -->
+           <div class="callout">
+               <h4>Busqueda avanzada</h4>
+               <p class="show-for-sr">
+                 A continuación hay un formulario para hacer búsquedas avanzadas.
+               </p>
+ <!-- inicio de formulario de busqueda -->
+               <form  >
+ <!-- primer input por nombre -->
+                 <div class="row column">
+                   <label>Por nombre:
+                     <input type="text" placeholder="Ingrese nombre" />
+                   </label>
+                 </div>
+                 <!-- segundo imput por referencia -->
+                 <div class="row column">
+                   <label>Por referencia:
+                     <input type="text" placeholder="Ingrese referencia"  />
+                   </label>
+                   <p class="help-text" id="ayudaTexto"> Número único del producto </p> <!-- colocamos el texto de ayuda  mediante la etiqueta p -->
+
+                 </div>
+
+                 <div class="row column">
+                   <!-- menu desplegable -->
+                                     <label>Por categoria
+                                       <select >
+                                         <option value="1">Hogar</option>
+                                         <option value="2">Salud</option>
+                                         <option value="3">Deporte</option>
+                                         <option value="4">Tegnologia</option>
+                                         <option value="4">Accesorios</option>
+                                       </select>
+                                     </label>
+                 </div>
+                 <div class="row column">
+                   <!-- agregamos check Checkbox -->
+                                   <fieldset class="fieldset">
+                                     <legend>Tipo de producto:</legend>
+                                     <input id="checkbox1" type="checkbox"><label for="checkbox1">Nuevo </label>
+                                     <input id="checkbox2" type="checkbox"><label for="checkbox2">Usado</label>
+                                   </fieldset>
+                 </div>
+                 <div class="row column">
+                   <!-- incluimos los radio botones -->
+                                   <fieldset class="fieldset">
+                                     <legend>Tipo de precio:</legend>
+                                     <input type="radio" name="precio" value="Rojo" id="pleno" required><label for="pleno">pleno</label>
+                                     <input type="radio" name="precio" value="Azul" id="En oferta"><label for="En oferta">En oferta</label>
+                                   </fieldset>
+                 </div>
+                 <div class="row column">
+                   <!-- agregamos el elemento switch -->
+                                   <fieldset class="fieldset text-center">
+                                     <h6>¿Buscar productos agotados?</h6>
+                                     <input class="switch-input" id="ejSwitch" type="checkbox" name="ejSwitch">
+                                     <label class="switch-paddle" for="ejSwitch">
+                                       <span class="switch-active" aria-hidden="true">Si</span>
+                                       <span class="switch-inactive" aria-hidden="true">No</span>
+                                     </label>
+                                   </fieldset>
+                 </div>
+                 <div class="row column text-center">
+                   <!-- para finalizar colocamos el boton de busqueda -->
+                   <hr>
+                       <a href="#" class="large expanded button radius">Buscar<i class="fi-magnifying-glass size-14"></i></a>
+                 </div>
+               </form>
+
+         </div>
+    </div>
+
+ <!--**************************************************+fin columna izaquierda*********************************************************+  -->
+
+   <div class=" large-9 columns  ">
+     <div class="callout">
+       <h3>Decoración</h3>
+     <!-- hacemos la divicion con la etiqueta hr  -->
+       <hr>
+       <!-- luego creamos dos filas con cuatro columnas cada una -->
+ <!-- primera fila -->
+       <div class="row large-uncollapse">
+         <div class="large-4 small-12 medium-6 columns">
+           <div class="secondary callout text-center">
+               <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
+                 <h5>Decorado 1</h5>
+                 <p>
+                   <a href="#">Ver más <i class="step fi-plus"></i></a>
+                 </p>
+           </div>
+         </div>
+         <div class="large-4 small-12 medium-6 columns">
+           <div class="secondary callout text-center">
+             <img src="img/2.jpg" alt="decorado 2 " class="thumbnail">
+               <h5>Decorado 2</h5>
+              <p>
+                <a href="#">Ver más <i class="step fi-plus"></i></a>
+              </p>
+           </div>
+         </div>
+         <div class="large-4 small-12 medium-12 columns">
+           <div class="secondary callout text-center">
+             <img src="img/10.jpg" alt="decorado 10 " class="thumbnail">
+               <h5>Decorado 3</h5>
+               <p>
+                 <a href="#">Ver más <i class="step fi-plus"></i></a>
+               </p>
              </div>
-      </div><!-- cierre columna izquierda-->
-      </div> <!--cierre fila inicial -->
-
-</div>
-        <div class="row">
-          <div class="column ">
-                <div class="  button-group   stacked-for-small  ">
-                      <a class="large button">Hogar</a>
-                       <a class="large button">Salud</a>
-                        <a class="large button">Deporte</a>
-                          <a class="large button">Tecnologia</a>
-                           <a class="large button">Accesorios</a>
-                            <a class="large button difernte" >  <span></span> <i class="fi-shopping-cart size-14"> </i>carrito</a>
-               </div>
-        </div>
-        <div class="column">
-                <nav aria-label="You are here:" role="navigation">
-                        <ul class="breadcrumbs ">
-                            <li><a href="#">Hogar</a></li>
-                            <li><a href="#">salud</a></li>
-                            <li><a href="#">deporte</a></li>
-                            <li><a href="#">Tecnologia</a></li>
-                            <li><a href="#">accsesorios</a></li>
-                        </ul>
-                </nav>
-        </div>
-
-        </div>
-
-</header>
-
-<div class="row large-uncollapse">
-  <div class="large-3 columns"><!--inicio columna izaquierda  -->
-        <div class="callout">
-            <h4>Busqueda avanzada</h4>
-  <!-- inicio de formulario de busqueda -->
-              <form class="" action="index.html" method="post" >
-<!-- primer input por nombre -->
-                    <label>Por nombre:
-                      <input type="text" placeholder="Ingrese nombre" />
-                    </label>
-<!-- segundo imput por referencia -->
-
-                    <label>Por referencia:
-                      <input type="text" placeholder="Ingrese referencia"  />
-                    </label>
-                    <p class="help-text" id="ayudaTexto"> Número único del producto </p> <!-- colocamos el texto de ayuda  mediante la etiqueta p -->
-
-<!-- menu desplegable -->
-                  <label>Por categoria
-                    <select >
-                      <option value="1">Hogar</option>
-                      <option value="2">Salud</option>
-                      <option value="3">Deporte</option>
-                      <option value="4">Tegnologia</option>
-                      <option value="4">Accesorios</option>
-                    </select>
-                  </label>
-<!-- agregamos check Checkbox -->
-                <fieldset class="fieldset">
-                  <legend>Tipo de producto:</legend>
-                  <input id="checkbox1" type="checkbox"><label for="checkbox1">Nuevo </label>
-                  <input id="checkbox2" type="checkbox"><label for="checkbox2">Usado</label>
-                </fieldset>
-<!-- incluimos los radio botones -->
-                <fieldset class="fieldset">
-                  <legend>Tipo de precio:</legend>
-                  <input type="radio" name="precio" value="Rojo" id="pleno" required><label for="pleno">pleno</label>
-                  <input type="radio" name="precio" value="Azul" id="En oferta"><label for="En oferta">En oferta</label>
-                </fieldset>
-<!-- agregamos el elemento switch -->
-                <fieldset class="fieldset text-center">
-                  <h6>¿Buscar productos agotados?</h6>
-                  <input class="switch-input" id="ejSwitch" type="checkbox" name="ejSwitch">
-                  <label class="switch-paddle" for="ejSwitch">
-                    <span class="switch-active" aria-hidden="true">Si</span>
-                    <span class="switch-inactive" aria-hidden="true">No</span>
-                  </label>
-
-                </fieldset>
-
-                              <hr>
-<!-- para finalizar colocamos el boton de busqueda -->
-
-                  <a href="#" class="large expanded button radius">Buscar<span></span> <i class="fi-magnifying-glass size-14"></i></a>
-
-              </form>
-
-        </div>
+         </div>
+       </div>
+ <!-- segunda fila -->
+ <div class="row large-uncollapse">
+   <div class="large-4 small-12 medium-6 columns">
+     <div class="secondary callout text-center">
+       <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
+         <h5>Decorado 1</h5>
+         <p>
+           <a href="#">Ver más <i class="step fi-plus"></i></a>
+         </p>
+     </div>
    </div>
 
-<!--**************************************************+fin columna izaquierda*********************************************************+  -->
+   <div class="large-4 small-12 medium-6 columns">
+     <div class="secondary callout text-center">
+       <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
+         <h5>Decorado 2</h5>
+         <p>
+           <a href="#">Ver más <i class="step fi-plus"></i></a>
+         </p>
+     </div>
+   </div>
+   <div class="large-4 small-12  medium-12 columns">
+     <div class="secondary callout text-center">
+       <img src="img/3.jpg" alt="decorado 3 " class="thumbnail">
+         <h5>Decorado 3</h5>
+        <p>
+          <a href="#">Ver más <i class="step fi-plus"></i></a>
+        </p>
+     </div>
+   </div>
+ </div>
 
-  <div class=" large-9 columns  ">
-    <div class="callout">
-      <h2>Decoración</h2>
-    <!-- hacemos la divicion con la etiqueta hr  -->
-      <hr>
-      <!-- luego creamos dos filas con cuatro columnas cada una -->
 
-<!-- primera fila -->
-      <div class="row large-uncollapse">
-
-        <div class="large-4 columns">
-          <div class="secondary callout text-center">
-
-            <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
-            <p><h5>Decorado 1</h5></p>
-              <a href="#">Ver más <i class="step fi-plus"></i></a>
-
-          </div>
-        </div>
-        <div class="large-4 columns">
-          <div class="secondary callout text-center">
-
-            <img src="img/2.jpg" alt="decorado 2 " class="thumbnail">
-            <p><h5>Decorado 2</h5></p>
-              <a href="#">Ver más <i class="step fi-plus"></i></a>
-
-          </div>
-        </div>
-        <div class="large-4 columns">
-          <div class="secondary callout text-center">
-
-            <img src="img/10.jpg" alt="decorado 10 " class="thumbnail">
-            <p><h5>Decorado 10</h5></p>
-              <a href="#">Ver más <i class="step fi-plus"></i></a>
-
-          </div>
-        </div>
-      </div>
-<!-- segunda fila -->
-<div class="row large-uncollapse">
-
-  <div class="large-4 columns">
-    <div class="secondary callout text-center">
-
-      <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
-      <p><h5>Decorado 1</h5></p>
-        <a href="#">Ver más <i class="step fi-plus"></i></a>
-
+     </div>
+    </div><!--inicio columna derecha  -->
     </div>
-  </div>
-  <div class="large-4 columns">
-    <div class="secondary callout text-center">
+ </div>
+ </div>
 
-      <img src="img/1.jpg" alt="decorado 1 " class="thumbnail">
-      <p><h5>Decorado 2</h5></p>
-        <a href="#">Ver más <i class="step fi-plus"></i></a>
-
-    </div>
-  </div>
-  <div class="large-4 columns">
-    <div class="secondary callout text-center">
-
-      <img src="img/3.jpg" alt="decorado 3 " class="thumbnail">
-      <p><h5>Decorado 3</h5></p>
-        <a href="#">Ver más <i class="step fi-plus"></i></a>
-
-    </div>
-  </div>
-</div>
-
-
-    </div>
-   </div><!--inicio columna derecha  -->
-
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/what-input.js"></script>
+    <script src="js/foundation.min.js" charset="utf-8"></script>
+    <script src="js/home.js" charset="utf-8"></script>
   </body>
 </html>
